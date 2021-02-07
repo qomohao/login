@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <style>
+        @import url('./assets/style/common.css');
+        html,body {
+            margin: 0;
+            padding: 0;
+        }
+        .main {
+            font-size: .36rem;
+            font-family: PingFangSC-Medium, PingFang SC;
+        }
+        .header {
+            height: 4rem;
+            background-image: url('./assets/imgs/top_bg.png');
+            background-size: 100% 100%;
+        }
+        .qrcode-box {
+            margin: 0 .4rem;
+            height: 6.5rem;
+            margin-top: -.8rem;
+        }
+        .qrcode-box .qrcode {
+            height:100%;
+            background: #FFFFFF;
+            box-shadow: 2px 12px 12px 0px rgba(111, 152, 236, 0.21);
+            border-radius: .16rem;
+            text-align: center;
+            padding:.3rem;
+        }
+        .qrcode-box .qrcode img {
+            width: 4.6rem;
+            height: 4.6rem;
+            background-image: url('./assets/imgs/top_bg.png');
+            background-size: 100% 100%;
+        }
+        .txt {
+            font-size: .3rem;
+        }
+        .share-btn {
+            background: linear-gradient(274deg, #3D5CEB 0%, #6968E8 51%, #8870E6 100%);
+            border-radius: .48rem;
+            color: #FFFFFF;
+            font-weight: 500;
+            padding: .2rem;
+            margin: .2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main ">
+        <div class="header "></div>
+        <div class="qrcode-box">
+            <div class="qrcode">
+                <img src="./assets/imgs/qrcode_demo.png" alt="">
+                <div class="txt">扫码立即申请</div>
+                <div class="share-btn">分享</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./assets/js/rem.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+</script>
